@@ -1,0 +1,36 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  width: 80px;             /* ancho de la carta */
+  height: 120px;           /* alto de la carta */
+  padding: 16px;           /* espacio interno */
+  display: flex;           /* para centrar contenido */
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  font-size: 1.5rem;       /* tamaño del texto */
+  background-color: white; /* fondo de la carta */
+  border: 2px solid black; /* borde negro */
+  border-radius: 8px;      /* bordes redondeados */
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.3); /* sombra */
+  text-align: center;      /* centrado del texto */
+}
+
